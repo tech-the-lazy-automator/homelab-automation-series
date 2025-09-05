@@ -1,0 +1,7 @@
+services:
+  terraform:
+    image: hashicorp/terraform
+    volumes:
+      - .:/terraform
+    working_dir: /terraform
+    network_mode: host
