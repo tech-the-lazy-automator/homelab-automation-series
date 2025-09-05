@@ -1,0 +1,10 @@
+services:
+  ansible:
+    build: .
+    container_name: ansible
+    image: ansible
+    volumes:
+      - .:/ansible
+    working_dir: /ansible
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["tail -f /dev/null"]
