@@ -1,6 +1,6 @@
 # Terraform Dynamic VM Provisioning
 
-[![Thumbnail](https://img.youtube.com/vi/7VlNl6Z-qao/maxresdefault.jpg)](https://www.youtube.com/watch?v=7VlNl6Z-qao) #22
+[![Thumbnail](https://img.youtube.com/vi/7VlNl6Z-qao/maxresdefault.jpg)](https://www.youtube.com/watch?v=7VlNl6Z-qao)
 
 ## Automate Cloud-Init VMs on Proxmox with Terraform - # 34
 

@@ -21,6 +21,6 @@ terraform_destroy() {
     $TF_CMD destroy -auto-approve
 }
 
-# terraform_plan "proxmox"
-terraform_apply "proxmox"
+terraform_plan "proxmox"
+# terraform_apply "proxmox"
 # terraform_destroy "proxmox"

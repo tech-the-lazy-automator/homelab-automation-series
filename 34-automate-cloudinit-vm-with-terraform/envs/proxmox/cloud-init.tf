@@ -22,7 +22,7 @@ resource "proxmox_vm_qemu" "cloud-init" {
     skip_ipv6 = true
     ciuser = each.value.ciuser
     cipassword = each.value.cipassword
-    sshkeys = ""
+    sshkeys = "SSH_PUBLIC_KEY"
 
     cpu {
         type = "x86-64-v2-AES"
