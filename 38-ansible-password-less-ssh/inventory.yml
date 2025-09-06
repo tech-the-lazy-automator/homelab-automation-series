@@ -1,0 +1,10 @@
+prod:
+  hosts:
+    prod1:
+      ansible_host: <IP_ADDRESS_VM_1>
+    prod2:
+      ansible_host: <IP_ADDRESS_VM_2>
+    prod3:
+      ansible_host: <IP_ADDRESS_VM_3>
+  vars:
+    ansible_user: <USERNAME>
