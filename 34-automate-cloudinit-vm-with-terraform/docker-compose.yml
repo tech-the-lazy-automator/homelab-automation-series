@@ -1,0 +1,10 @@
+services:
+  terraform:
+    image: hashicorp/terraform:1.12
+    container_name: terraform
+    environment:
+      - TF_DATA_DIR=/data
+    volumes:
+      - .:/config
+      - ./data:/data
+    working_dir: /config/envs/${TERRAFORM_ENV}
