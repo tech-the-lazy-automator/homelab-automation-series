@@ -1,0 +1,5 @@
+- name: Prepare Systems
+  hosts: all
+  become: true
+  roles:
+    - prepare

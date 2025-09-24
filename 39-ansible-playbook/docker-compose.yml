@@ -1,0 +1,14 @@
+services:
+  ansible:
+    build: .
+    container_name: ansible
+    image: ansible:v1.0
+    environment:
+      - ANSIBLE_HOST_KEY_CHECKING=false
+      - ANSIBLE_PYTHON_INTERPRETER=/usr/bin/python3.13
+    volumes:
+      - .:/ansible
+      - ./keys:/root/.ssh
+    working_dir: /ansible
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["tail -f /dev/null"]
