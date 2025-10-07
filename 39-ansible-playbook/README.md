@@ -14,9 +14,11 @@ ansible/
 ├── plabooks
 |   ├── main.yml
 |   └── roles
-|       └── tasks
-|           └── main.yml
+|       └── prepare
+|           └── tasks
+|               └── main.yml
 └── configure.sh
+
 ```
 
 ### Commands
