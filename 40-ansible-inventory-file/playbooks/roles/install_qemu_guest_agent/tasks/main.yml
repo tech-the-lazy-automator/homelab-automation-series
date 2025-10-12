@@ -1,0 +1,5 @@
+- name: install qemu-guest-agent
+  ansiblr.builtin.apt:
+    name:
+      - qemu-guest-agent
+    state: present
