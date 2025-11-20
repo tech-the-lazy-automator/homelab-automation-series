@@ -1,0 +1,12 @@
+- name: Prepare Systems
+  hosts: all
+  become: true
+  roles:
+    - prepare
+
+- name: Install qemu-guest-agent on pve-vms
+  hosts: pve_vms
+  become: true
+  roles:
+    - install_qemu_guest_agent
+    - nfs_client ## new role

@@ -1,0 +1,42 @@
+prod:
+  hosts:
+    prod1:
+      ansible_host: <IP_ADDRESS_VM_1>
+    prod2:
+      ansible_host: <IP_ADDRESS_VM_2>
+
+dev:
+  hosts:
+    dev1:
+      ansible_host: <IP_ADDRESS_VM_3>
+    linux_pc:
+      ansible_host: <IP_ADDRESS_LOCAL_MACHINE_1>
+      ansible_become_pass: <SUDO_PASSWORD>
+
+local:
+  hosts:
+    linux_pc:
+    linux_laptop:
+      ansible_host: <IP_ADDRESS_LOCAL_MACHINE_2>
+      ansible_become_pass: <SUDO_PASSWORD>
+
+pve_vms:
+  children:
+    prod:
+  hosts:
+    dev1:
+  vars:
+    nfs_shares:
+      - src: <NAS_IP>:<SOURCE_PATH_1>
+      - path: <DESTINATION_PATH_1>
+      - src: <NAS_IP>:<SOURCE_PATH_2>
+      - path: <DESTINATION_PATH_2>
+
+system:
+  children:
+    prod:
+    dev:
+    local:
+  vars:
+    ansible_user: <USERNAME>
+    ansible_become_pass: <SUDO_PASSWORD>

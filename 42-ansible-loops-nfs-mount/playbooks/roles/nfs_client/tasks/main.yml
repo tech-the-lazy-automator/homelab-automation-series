@@ -1,0 +1,44 @@
+- name: Install nfs-common
+  ansible.builtin.apt:
+    name: nfs-common
+    state: present
+
+# WITHOUT LOOP AND INVENTORY NFS SHARES LIST
+
+# - name: Ensure NFS mount directories exist
+#   become: false
+#   ansible.builtin.file:
+#     path: <DESTINATION_PATH>
+#     state: directory
+#     mode: '0755'
+
+# - name: Mount an NFS volume
+#   ansible.posix.mount:
+#     src: <NAS_IP>:<SOURCE_PATH>
+#     path: <DESTINATION_PATH>
+#     opts: "defaults,_netdev"
+#     state: mounted
+#     fstype: "nfs"
+
+# WITH LOOP
+
+- name: Ensure NFS mount directories exists
+  become: false
+  ansible.builtin.file:
+    path: "{{ item.path }}"
+    state: directory
+    mode: '0755'
+  loop: "{{ nfs_shares }}"
+  loop_control:
+    label: "Directory: {{ item.path }}"
+
+- name: Mount an NFS volume
+  ansible.posix.mount:
+    src: "{{ item.src }}"
+    path: "{{ item.path }}"
+    opts: defaults,_netdev
+    state: mounted
+    fstype: nfs
+  loop: "{{ nfs_shares }}"
+  loop_control:
+    label: "Mounted: {{ item.src }}"
