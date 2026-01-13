@@ -11,7 +11,7 @@ ansible/
 ├── inventory.yml
 ├── dockerfile
 ├── docker-compose.yml
-├── plabooks
+├── playbooks
 |   ├── main.yml
 |   └── roles
 |       └── prepare
