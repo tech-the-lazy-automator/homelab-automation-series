@@ -1,10 +1,7 @@
-# Ansible Playbooks
-
+# #39 - Ansible - Playbook
 [![Thumbnail](https://img.youtube.com/vi/9ABszjHQEfI/maxresdefault.jpg)](https://www.youtube.com/watch?v=9ABszjHQEfI)
 
-## Ansible Playbooks: Easier Than You Expect, More Powerful Than You Realize - (Part 3) - #39
-
-### File Structure
+## File Structure
 
 ```text
 ansible/
@@ -21,15 +18,5 @@ ansible/
 
 ```
 
-### Commands
-
-```bash
-## Make the script executable
-chmod +x configure.sh
-
-## Execute the script
-./configure.sh
-```
-
-### Resources
+## Resources
 - [Ansible Community Documentation](https://docs.ansible.com/ansible/latest/index.html)

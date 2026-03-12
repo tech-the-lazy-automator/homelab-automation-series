@@ -1,6 +1,32 @@
-# homelab-automation-series
+# HomeLab Automation Series
 
-This repository contains code, playbooks, and configurations used in my YouTube tutorials.
-Each folder corresponds to a specific video topic, making it easy to explore and follow along.
+In this repository, you will find all the code, playbooks, and configurations of the homelab automation series which I have set up and documented in my YouTube videos. Each folder corresponds to a specific video topic, making it easy to explore and follow along. If you need detailed guides on these, check out my YouTube channel.
 
-Use this as a reference while watching the videos, or adapt the examples for your own projects.
+
+## Projects
+
+Here's the list of services included in this collection:
+
+| Service | TL;DR | Full Guide |
+|---------|-------------|-------------|
+| [**Ansible - Deployment**](./32-ansible-on-docker/README.md) | Get Started with Ansible. | [▶ Watch](https://youtu.be/rZAVKybbL40)
+| [**Ansible - Passwordless Login**](./38-ansible-passwordless-login/README.md) | Configure Passwordless SSH for Ansible on Cloud-init VMs. | [▶ Watch](https://youtu.be/YKYw89VaFmU)
+| [**Ansible - Playbooks**](./39-ansible-playbook/README.md) | Learn Ansible Playbooks. | [▶ Watch](https://youtu.be/9ABszjHQEfI)
+| [**Ansible - Inventory File**](./40-ansible-inventory-file/README.md) | Create Your Ansible Inventory File easily.| [▶ Watch](https://youtu.be/dQqGEAnI198)
+| [**Ansible - NFS Share**](./42-ansible-nfs-mount/README.md) | Auto-Mount Your NFS Shares with Ansible Loops. | [▶ Watch](https://youtu.be/o6MJiHjoHkE)
+| [**Terraform - Automate Proxmox**](./20-terraform-automate-proxmox/README.md) | Deploy and Manage Your Proxmox VMs Automatically Using Terraform. | [▶ Watch](https://youtu.be/zrhLGAZXQeo)
+| [**Terraform - Loops and Vars**](./22-terraform-loops-and-vars/README.md) | Automate Multiple VMs in Proxmox with Terraform Loops and Variables. | [▶ Watch](https://youtu.be/WvzppMkebqk)
+| [**Terraform - CloudInit - Proxmox**](./34-terraform-cloudinit-proxmox/README.md) | Automate Your Cloud-Init VMs on Proxmox with Terraform. | [▶ Watch](https://youtu.be/7VlNl6Z-qao)
+
+---
+
+### Connect with me
+[![Youtube]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/youtube.svg)](https://www.youtube.com/@Tech-TheLazyAutomator)
+[![Facebook]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/facebook.svg)](https://www.facebook.com/techthelazyautomator/)
+[![Instagram]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/instagram.svg)](https://www.instagram.com/tech.thelazyautomator/)
+[![LinkedIn]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/linkedin.svg)](https://www.linkedin.com/in/tech-the-lazy-automator-58264732b/)
+[![Reddit](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/reddit.svg)](https://www.reddit.com/r/TechTheLazyAutomator/)
+[![Twitter]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/twitter.svg)](https://twitter.com/TechTheLazyAuto/)
+[![Discord](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/discord.svg)](https://discord.gg/EHcn4knGW4)
+[![Email]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/email.svg)](mailto:tech.lazyautomator@gmail.com)
+[![Website]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/website.svg)](https://lzautomations.com)

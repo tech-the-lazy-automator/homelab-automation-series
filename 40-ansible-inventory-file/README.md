@@ -1,10 +1,7 @@
-# Ansible Inventory FIle
-
+# #40 - Ansible - Inventory File
 [![Thumbnail](https://img.youtube.com/vi/dQqGEAnI198/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQqGEAnI198)
 
-## Don’t Start Ansible Without Understanding This File! - (Part 4) - #40
-
-### 📁 File Structure
+## 📁 File Structure
 
 ```text
 ansible/
@@ -23,12 +20,5 @@ ansible/
 └── configure.sh
 ```
 
-### 💻 Commands
-
-```bash
-## Execute the script
-./configure.sh
-```
-
-### 📚 Resources
+## Resources
 - [Ansible Community Documentation](https://docs.ansible.com/ansible/latest/index.html)

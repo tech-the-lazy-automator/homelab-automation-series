@@ -1,10 +1,7 @@
-# NFS Mount With Ansible
-
+# #42 - Ansible - NFS Mount
 [![Thumbnail](https://img.youtube.com/vi/o6MJiHjoHkE/maxresdefault.jpg)](https://www.youtube.com/watch?v=o6MJiHjoHkE)
 
-## Ansible Loops - Auto-Mount NFS Shares with Ansible Loops! - (Part 5) - #42
-
-### File Structure
+## File Structure
 
 ```text
 ansible/
@@ -25,16 +22,5 @@ ansible/
 │               └── main.yml
 └── configure.sh
 ```
-
-### Commands
-
-```bash
-## Make the script executable
-chmod +x configure.sh
-
-## Execute the script
-./configure.sh
-```
-
-### Resources
+## Resources
 - [Ansible Community Documentation](https://docs.ansible.com/ansible/latest/index.html)
