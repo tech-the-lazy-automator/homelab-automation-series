@@ -9,14 +9,14 @@ Here's the list of services included in this collection:
 
 | Service | TL;DR | Full Guide |
 |---------|-------------|-------------|
-| [**Ansible - Deployment**](./32-ansible-on-docker/README.md) | Get Started with Ansible. | [▶ Watch](https://youtu.be/rZAVKybbL40)
-| [**Ansible - Passwordless Login**](./38-ansible-passwordless-login/README.md) | Configure Passwordless SSH for Ansible on Cloud-init VMs. | [▶ Watch](https://youtu.be/YKYw89VaFmU)
-| [**Ansible - Playbooks**](./39-ansible-playbook/README.md) | Learn Ansible Playbooks. | [▶ Watch](https://youtu.be/9ABszjHQEfI)
-| [**Ansible - Inventory File**](./40-ansible-inventory-file/README.md) | Create Your Ansible Inventory File easily.| [▶ Watch](https://youtu.be/dQqGEAnI198)
-| [**Ansible - NFS Share**](./42-ansible-nfs-mount/README.md) | Auto-Mount Your NFS Shares with Ansible Loops. | [▶ Watch](https://youtu.be/o6MJiHjoHkE)
-| [**Terraform - Automate Proxmox**](./20-terraform-automate-proxmox/README.md) | Deploy and Manage Your Proxmox VMs Automatically Using Terraform. | [▶ Watch](https://youtu.be/zrhLGAZXQeo)
-| [**Terraform - Loops and Vars**](./22-terraform-loops-and-vars/README.md) | Automate Multiple VMs in Proxmox with Terraform Loops and Variables. | [▶ Watch](https://youtu.be/WvzppMkebqk)
-| [**Terraform - CloudInit - Proxmox**](./34-terraform-cloudinit-proxmox/README.md) | Automate Your Cloud-Init VMs on Proxmox with Terraform. | [▶ Watch](https://youtu.be/7VlNl6Z-qao)
+| [**Ansible - P1**](./32-ansible-on-docker/README.md) | Get Started with Ansible. |[▶ Watch](https://youtu.be/rZAVKybbL40)
+| [**Ansible - P2**](./38-ansible-passwordless-login/README.md) | Configure Passwordless SSH Login for Ansible. |[▶ Watch](https://youtu.be/YKYw89VaFmU)
+| [**Ansible - P3**](./39-ansible-playbook/README.md) | Learn Ansible Playbooks. |[▶ Watch](https://youtu.be/9ABszjHQEfI)
+| [**Ansible - P4**](./40-ansible-inventory-file/README.md) | Create Ansible Inventory File.|[▶ Watch](https://youtu.be/dQqGEAnI198)
+| [**Ansible - P5**](./42-ansible-nfs-mount/README.md) | Auto-Mount NFS Shares with Ansible. |[▶ Watch](https://youtu.be/o6MJiHjoHkE)
+| [**Terraform - P1**](./20-terraform-automate-proxmox/README.md) | Automate Proxmox VMs with Terraform. |[▶ Watch](https://youtu.be/zrhLGAZXQeo)
+| [**Terraform - P2**](./22-terraform-loops-and-vars/README.md) | Dynamic VM Provisioning with Terraform. |[▶ Watch](https://youtu.be/WvzppMkebqk)
+| [**Terraform - P3**](./34-terraform-cloudinit-proxmox/README.md) | Automate Cloud-Init VMs on Proxmox with Terraform. |[▶ Watch](https://youtu.be/7VlNl6Z-qao)
 
 ---
 
